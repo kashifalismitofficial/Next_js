@@ -12,7 +12,7 @@ export default function HomePage() {
           <h1 className="font-inter font-bold text-[44px]">Welcome To Our Website</h1>
           <p className="text-[32px] w-[571px] text-[#4C4C4C]">Lorem Ipsum is simply dummy text of
             the printing and typesetting industry.
-            Lorem Ipsum has been the industry's
+            Lorem Ipsum has been the industrys
             standard</p>
           <button className="bg-black text-white text-[28px] mt-[20px] p-2 h-[66px] w-[237px]">Contact Us</button>
         </div>
