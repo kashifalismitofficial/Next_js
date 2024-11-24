@@ -48,13 +48,12 @@ export default function Homepage() {
 
       {/* <<<<<<< Icon Section Start >>>>>>> */}
 
-      <div className='text-center mb-[60px]'>
+      <div className='text-center  m-[60px]'>
         <h3 className='font-sans text-[32px] font-bold'>Explore Courses By Category</h3>
         <p>Discover a wide range of courses covering a variety of subjects, taught by expert instructors.</p>
       </div>
       {/* Icons Section */}
-      <div className='flex flex-wrap gap-7 justify-center mb-[200px]'>
-
+      <div className='flex flex-wrap gap-7 justify-center mb-[100px]'>
         {/* Icone one */}
         <div className='flex justify-evenly items-center w-[380px] h-[132px] bg-[#F7F7F7]' >
           <div className='w-[100px] h-[100px] flex justify-center items-center bg-white'>
@@ -63,7 +62,7 @@ export default function Homepage() {
             />
           </div>
           <div>
-            <h3 className='text-[20px] font-semibold'>Design & Development</h3>
+            <h3 className='text-[20px] font-semibold'>Marketing</h3>
             <p className='text-[18px]'>50+ Courses Available</p>
           </div>
         </div>
@@ -72,11 +71,11 @@ export default function Homepage() {
         <div className='flex justify-evenly items-center w-[380px] h-[132px] bg-[#F7F7F7]' >
           <div className='w-[100px] h-[100px] flex justify-center items-center bg-white'>
             <Image
-              src={'/images/pen-tool-2.png'} alt='No-image' width={32} height={32}
+              src={'/images/volume-high.png'} alt='No-image' width={32} height={32}
             />
           </div>
           <div>
-            <h3 className='text-[20px] font-semibold'>Design & Development</h3>
+            <h3 className='text-[20px] font-semibold'>Development</h3>
             <p className='text-[18px]'>50+ Courses Available</p>
           </div>
         </div>
@@ -85,7 +84,7 @@ export default function Homepage() {
         <div className='flex justify-evenly items-center w-[380px] h-[132px] bg-[#F7F7F7]' >
           <div className='w-[100px] h-[100px] flex justify-center items-center bg-white'>
             <Image
-              src={'/images/pen-tool-2.png'} alt='No-image' width={32} height={32}
+              src={'/images/group.png'} alt='No-image' width={32} height={32}
             />
           </div>
           <div>
@@ -93,7 +92,57 @@ export default function Homepage() {
             <p className='text-[18px]'>50+ Courses Available</p>
           </div>
         </div>
+
+        {/* veiw all btn */}
+        <button className='mt-[30px] w-[155px] h-[48px] text-black border border-black'>View All Courses</button>
+
+      </div>
+
+      {/* <<<<<<<< Our Achivements start >>>>>>>*/}
+      <div className='h-[451px]'>
+        <div className='text-center sm:pl-[15px]'>
+          <h3 className='text-[32px] font-bold'>Our Achivements</h3>
+          <p className='text-[18px] pt-6 w-[380px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+        </div>
+        {/* Counter */}
+        <div className="flex items-center pt-[50px] justify-center">
+          <div className='flex justify-around  text-center w-[380px]'>
+            <div>
+              <h1 className='text-[20px] font-bold'>+200</h1>
+              <p className='text-[16px] pt-[20px]'>Courses</p>
+            </div>
+            <div>
+              <h1 className='text-[20px] font-bold'>50K</h1>
+              <p className='text-[16px] pt-[20px]'>Mentors</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Seconde */}
+        <div className="flex  items-center pb-[25px] pt-[40px] justify-center">
+          <div className='flex justify-around  text-center w-[380px]'>
+            <div>
+              <h1 className='text-[20px] font-bold'>370K</h1>
+              <p className='text-[16px] pt-[20px]'>Students</p>
+            </div>
+            <div>
+              <h1 className='text-[20px] font-bold'>100+</h1>
+              <p className='text-[16px] pt-[20px]'>Recognition</p>
+            </div>
+          </div>
+        </div>
+
+        {/*<<<<<<<<<<<<<<<<<<<<< Next Start>>>>>>>>>>>>>>>>>>>>> */}
+
+        <div className='text-center pt-[100px] sm:pl-[15px]'>
+          <h3 className='text-[32px] font-bold'>Courses</h3>
+          <p className='text-[18px] pt-6 w-[380px]'>Your Ultimate Guide to learning</p>
+        </div>
         
+        {/* Card Section Start */}
+        <div className="w-[380px]">
+
+        </div>
 
 
 
@@ -105,9 +154,7 @@ export default function Homepage() {
 
 
       </div>
-
-
-
     </div>
+
   )
 }
