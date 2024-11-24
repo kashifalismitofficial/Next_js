@@ -29,7 +29,7 @@ export default function Homepage() {
       {/*>>>>> Logo Section Start <<<<<<*/}
       <div>
         <div className='flex justify-center md:pl-5 md:justify-self-start'>
-          <h3 className='text-[18px] font-sans w-[327px] font-bold'>Trusted by the world's best companies [social proof to build credibility]</h3>
+          <h3 className='text-[18px] font-sans w-[327px] font-bold'>Trusted by the worlds best companies [social proof to build credibility]</h3>
         </div>
         {/* Logo Images */}
         <div className='py-[30px] flex justify-center md:justify-start md:pl-[50px]'>
@@ -131,17 +131,90 @@ export default function Homepage() {
             </div>
           </div>
         </div>
+      </div>
+      {/*<<<<<<<<<<<<<<<<<<<<< Next Start>>>>>>>>>>>>>>>>>>>>> */}
 
-        {/*<<<<<<<<<<<<<<<<<<<<< Next Start>>>>>>>>>>>>>>>>>>>>> */}
+      <div className='text-center pt-[100px] sm:pl-[15px]'>
+        <h3 className='text-[32px] font-bold'>Courses</h3>
+        <p className='text-[18px] pt-6 w-[380px]'>Your Ultimate Guide to learning</p>
+      </div>
 
-        <div className='text-center pt-[100px] sm:pl-[15px]'>
-          <h3 className='text-[32px] font-bold'>Courses</h3>
-          <p className='text-[18px] pt-6 w-[380px]'>Your Ultimate Guide to learning</p>
+      {/* Card Section Start */}
+      <div className='py-[50px] flex flex-wrap justify-center '>
+        {/* Card One */}
+        <div className=" w-[380px] h-[558px] mb-[30px] bg-[#F7F7F7]">
+          <div>
+            <Image
+              src={'/images/card1.png'} alt='Card Image' width={380} height={300}
+            />
+          </div>
+          <div>
+            <div className="flex justify-between p-[20px] pb-[10px]">
+              <p className='text-[14px] font-bold'>Design</p>
+              <Image
+                src={'/images/Star.png'} alt='Rting' width={48} height={24}
+              />
+            </div>
+            <div className="px-[20px] pt-0">
+              <h3 className='text-[24px] font-bold'>UX/UI Design 201</h3>
+              <p className='text-[18px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+              <div className="flex justify-arround gap-[15px] items-center mt-[15px]">
+                <button className='w-[117px] h-[40px]  text-black border rounded border-black'>Enroll Now</button>
+                <p className='text-[16px] font-bold'>$400</p>
+              </div>
+            </div>
+          </div>
         </div>
-        
-        {/* Card Section Start */}
-        <div className="w-[380px]">
 
+        {/* Card Tow*/}
+        <div className=" w-[380px] h-[558px] mb-[30px] bg-[#F7F7F7]">
+          <div>
+            <Image
+              src={'/images/card2.png'} alt='Card Image' width={380} height={300}
+            />
+          </div>
+          <div>
+            <div className="flex justify-between p-[20px] pb-[10px]">
+              <p className='text-[14px] font-bold'>Design</p>
+              <Image
+                src={'/images/Star.png'} alt='Rting' width={48} height={24}
+              />
+            </div>
+            <div className="px-[20px] pt-0">
+              <h3 className='text-[24px] font-bold'>UX/UI Design 201</h3>
+              <p className='text-[18px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+              <div className="flex justify-arround gap-[15px] items-center mt-[15px]">
+                <button className='w-[117px] h-[40px]  text-black border rounded border-black'>Enroll Now</button>
+                <p className='text-[16px] font-bold'>$400</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        {/* Card Three*/}
+        <div className=" w-[380px] h-[558px] mb-[30px] bg-[#F7F7F7]">
+          <div>
+            <Image
+              src={'/images/card3.png'} alt='Card Image' width={380} height={300}
+            />
+          </div>
+          <div>
+            <div className="flex justify-between p-[20px] pb-[10px]">
+              <p className='text-[14px] font-bold'>Design</p>
+              <Image
+                src={'/images/Star.png'} alt='Rting' width={48} height={24}
+              />
+            </div>
+            <div className="px-[20px] pt-0">
+              <h3 className='text-[24px] font-bold'>UX/UI Design 201</h3>
+              <p className='text-[18px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+              <div className="flex justify-arround gap-[15px] items-center mt-[15px]">
+                <button className='w-[117px] h-[40px]  text-black border rounded border-black'>Enroll Now</button>
+                <p className='text-[16px] font-bold'>$400</p>
+              </div>
+            </div>
+          </div>
         </div>
 
 
@@ -154,6 +227,17 @@ export default function Homepage() {
 
 
       </div>
+
+
+
+
+
+
+
+
+
+
+
     </div>
 
   )
